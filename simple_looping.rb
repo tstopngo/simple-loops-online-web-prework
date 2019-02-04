@@ -8,8 +8,8 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
-  loop do
   counter = 0
+  loop do
   phrase = "Welcome to Flatiron School's Web Development Course!"
   puts phrase
   counter += 1
